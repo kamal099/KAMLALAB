@@ -24,6 +24,7 @@ public class FacebookLoginStepDefi {
     	driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
     	driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
     	driver.navigate().to("http://www.googl.com");
+    	System.out.println("This is new code");
     }
 
     @When("^he put their facebook password and username$")

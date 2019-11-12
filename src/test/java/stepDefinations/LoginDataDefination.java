@@ -16,6 +16,7 @@ public class LoginDataDefination extends mainClass {
 	@Given("^Inializaing browser$")
 	public void inializaing_browser() throws Throwable {
 		driver=invokeBrowser();
+		System.out.println("Brwosser inxilized");
 	    
 	}
 	@Given("^user enter \"([^\"]*)\"$")
